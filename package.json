@@ -1,0 +1,39 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "A simple starter template for developing chrome extensions using react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack watch --progress --config webpack.dev.js",
+    "build": "webpack build --progress --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinna-naidu/chrome-extension-react-ts-starter.git"
+  },
+  "author": "kondayyanaidu.chikkam@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinna-naidu/chrome-extension-react-ts-starter/issues"
+  },
+  "homepage": "https://github.com/chinna-naidu/chrome-extension-react-ts-starter#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.164",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
