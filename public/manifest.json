@@ -12,7 +12,7 @@
     "default_popup": "popup.html",
     "default_title": "extension name"
   },
-  "options_page": "settings/settings.html",
+  "options_page": "options.html",
   "permissions": ["tabs", "storage"],
   "host_permissions": ["*://*/*"],
   "background": {
